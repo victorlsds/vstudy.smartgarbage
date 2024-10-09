@@ -38,4 +38,8 @@
     <_GlobalJsonStartingDir Remove="ViewModel\Mapper\**" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Include=".github\workflows\worlflow-test.yaml" />
+  </ItemGroup>
+
 </Project>

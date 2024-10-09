@@ -1,4 +1,5 @@
-﻿on: push
+﻿name: Workflow Inicial
+on: push
 
 jobs:
     job1-hello:
