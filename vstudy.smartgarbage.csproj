@@ -39,6 +39,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Include=".github\workflows\workflow-build.yaml" />
     <None Include=".github\workflows\worlflow-test.yaml" />
   </ItemGroup>
 
