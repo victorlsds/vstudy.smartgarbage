@@ -15,8 +15,8 @@ jobs:
       with:
         dotnet-version: 8.0.x
     - name: Restore dependencies
-      run: dotnet restore vstudy.smartgarbage.sln
+      run: dotnet restore vstudy.smartgarbage
     - name: Build
-      run: dotnet build --configuration Release --no-restore
+      run: dotnet build vstudy.smartgarbage --configuration Release --no-restore
     - name: Test
-      run: dotnet test --no-restore --verbosity normal
+      run: dotnet test vstudy.smartgarbage --no-restore --verbosity normal
